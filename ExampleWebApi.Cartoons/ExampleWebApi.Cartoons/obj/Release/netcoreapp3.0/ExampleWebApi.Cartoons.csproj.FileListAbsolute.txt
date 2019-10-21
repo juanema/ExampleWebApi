@@ -1,0 +1,17 @@
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Cartoons.deps.json
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Cartoons.dll
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Cartoons.pdb
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Cartoons.xml
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Core.dll
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Domain.dll
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Domain.pdb
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Domain.xml
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Core.pdb
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\bin\Release\netcoreapp3.0\ExampleWebApi.Core.xml
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.csprojAssemblyReference.cache
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.AssemblyInfoInputs.cache
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.AssemblyInfo.cs
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.csproj.CopyComplete
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.dll
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.xml
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Cartoons\ExampleWebApi.Cartoons\obj\Release\netcoreapp3.0\ExampleWebApi.Cartoons.pdb

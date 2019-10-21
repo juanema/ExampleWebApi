@@ -1,0 +1,12 @@
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.csprojAssemblyReference.cache
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.AssemblyInfoInputs.cache
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.AssemblyInfo.cs
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\bin\Debug\netcoreapp3.0\ExampleWebApi.Core.deps.json
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\bin\Debug\netcoreapp3.0\ExampleWebApi.Core.dll
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\bin\Debug\netcoreapp3.0\ExampleWebApi.Core.pdb
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.dll
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.pdb
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.Resources.Resource.resources
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.csproj.GenerateResource.cache
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\bin\Debug\netcoreapp3.0\ExampleWebApi.Core.xml
+C:\Users\juanm\source\repos\examplewebapi\ExampleWebApi.Core\obj\Debug\netcoreapp3.0\ExampleWebApi.Core.xml

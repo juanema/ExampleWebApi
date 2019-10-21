@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleWebApi.Controllers</name>
+    </assembly>
+    <members>
+        <member name="T:ExampleWebApi.Controllers.Resources.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ExampleWebApi.Controllers.Resources.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ExampleWebApi.Controllers.Resources.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.v2.UsersController.Get">
+            <summary>
+            Get all Users
+            </summary>        
+        </member>
+        <member name="M:ExampleWebApi.Controllers.v2.UsersController.Get(System.Int32)">
+            <summary>
+            Get a specific User
+            </summary>    
+            <param name="id">User Id</param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.v2.UsersController.Post(System.Nullable{System.Int32},ExampleWebApi.Domain.Models.Validations.SaveUserValidation)">
+            <summary>
+            Create or update a User
+            </summary>            
+            <param name="id">User Id</param>
+            <param name="value">Validated values</param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.v2.UsersController.Put(System.Int32,ExampleWebApi.Domain.Models.Validations.SaveUserValidation)">
+            <summary>
+            Update a specific User
+            </summary>    
+            <param name="id">User Id</param>
+            <param name="value">Validated values</param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.v2.UsersController.Delete(System.Int32)">
+            <summary>
+            Delete a specific User
+            </summary>    
+            <param name="id">User Id</param>
+        </member>
+    </members>
+</doc>

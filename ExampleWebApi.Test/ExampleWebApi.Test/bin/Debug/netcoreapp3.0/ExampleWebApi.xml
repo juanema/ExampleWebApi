@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:ExampleWebApi.ActionFilters.ValidateModelAttribute">
+            <summary>
+            Validate the ModelState on action executing
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UserController.Get">
+            <summary>
+            Get all Users
+            </summary>        
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Get a specific User
+            </summary>    
+            <param name="id">User Id</param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UserController.Post(System.Nullable{System.Int32},ExampleWebApi.Domain.Models.Validations.SaveUserValidation)">
+            <summary>
+            Create or update a User
+            </summary>            
+            <param name="id">User Id</param>
+            <param name="value">Validated values</param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UserController.Put(System.Int32,ExampleWebApi.Domain.Models.Validations.SaveUserValidation)">
+            <summary>
+            Update a specific User
+            </summary>    
+            <param name="id">User Id</param>
+            <param name="value">Validated values</param>
+        </member>
+        <member name="M:ExampleWebApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Delete a specific User
+            </summary>    
+            <param name="id">User Id</param>
+        </member>
+    </members>
+</doc>

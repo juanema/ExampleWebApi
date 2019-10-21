@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleWebApi.Core</name>
+    </assembly>
+    <members>
+        <member name="T:ExampleWebApi.Core.ActionFilters.ValidateModelAttribute">
+            <summary>
+            Validate the ModelState on action executing
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Core.Controllers.UsersController.Get">
+            <summary>
+            Get all Users
+            </summary>        
+        </member>
+        <member name="M:ExampleWebApi.Core.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+            Get a specific User
+            </summary>    
+            <param name="id">User Id</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Controllers.UsersController.Post(System.Nullable{System.Int32},ExampleWebApi.Core.Domain.Models.Validations.SaveUserValidation)">
+            <summary>
+            Create or update a User
+            </summary>            
+            <param name="id">User Id</param>
+            <param name="value">Validated values</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Controllers.UsersController.Put(System.Int32,ExampleWebApi.Core.Domain.Models.Validations.SaveUserValidation)">
+            <summary>
+            Update a specific User
+            </summary>    
+            <param name="id">User Id</param>
+            <param name="value">Validated values</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Delete a specific User
+            </summary>    
+            <param name="id">User Id</param>
+        </member>
+        <member name="T:ExampleWebApi.Core.DI.AutoRegister">
+            <summary>
+            Programmatically unity configuration
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Core.DI.AutoRegister.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Registration entry point
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Core.DI.AutoRegister.Register(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Override this method to perform configuration
+            operations
+            </summary>
+        </member>
+        <member name="T:ExampleWebApi.Core.Domain.Models.IEntityWithTypedId`1">
+            <summary>
+            Interface contract for entities
+            </summary>
+            <typeparam name="TId">Id type</typeparam>
+        </member>
+        <member name="P:ExampleWebApi.Core.Domain.Models.IEntityWithTypedId`1.Id">
+            <summary>
+            Unique identifier in the data layer
+            </summary>
+            <remarks>
+            Write access is intended for domain assigned
+            ids, do not use when the id is assignewd in 
+            the data layer
+            </remarks>
+        </member>
+        <member name="T:ExampleWebApi.Core.Domain.Models.Entity`1">
+            <summary>
+            Base class for all entities
+            </summary>
+            <typeparam name="TId">
+            Id may be of type string, int, custom type, etc.
+            Setter is protected to allow unit tests to set this property via reflection and to allow 
+            domain objects more flexibility in setting this for those objects with assigned Ids.
+            </typeparam>
+        </member>
+        <member name="T:ExampleWebApi.Core.Domain.Persistence.Repositories.UnitOfWork">
+            <summary>
+            Pattern Unit of work
+            </summary>
+        </member>
+        <member name="T:ExampleWebApi.Core.Domain.Services.Communication.BaseResponse">
+            <summary>
+            A base class to WebApi response
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Core.Domain.Services.Communication.SaveUserResponse.#ctor(ExampleWebApi.Core.Domain.Models.User)">
+            <summary>
+            Creates a success response.
+            </summary>
+            <param name="user">Saved user.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:ExampleWebApi.Core.Domain.Services.Communication.SaveUserResponse.#ctor(System.Collections.Generic.IList{System.String})">
+            <summary>
+            Creates an error response.
+            </summary>
+            <param name="message">Error message.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:ExampleWebApi.Core.Extensions.ObjectExtensions.ThrowIfNull(System.Object)">
+            <summary>
+            Throw ArgumentNullException with the name of the object if the object is null
+            </summary>
+            <param name="notNullable">an object</param>
+        </member>
+        <member name="T:ExampleWebApi.Core.Guard">
+            <summary>
+            Design by Contract
+            Provides utility methods to guard parameter and local variables.
+            </summary>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.Against``1(System.Boolean,System.String)">
+            <summary>
+            Throws an exception of type <typeparamref name="TException"/> with the specified message
+            when the assertion statement is true.
+            </summary>
+            <typeparam name="TException">The type of exception to throw.</typeparam>
+            <param name="assertion">The assertion to evaluate. If true then the <typeparamref name="TException"/> exception is thrown.</param>
+            <param name="message">string. The exception message to throw.</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.Against``1(System.Func{System.Boolean},System.String)">
+            <summary>
+            Throws an exception of type <typeparamref name="TException"/> with the specified message
+            when the assertion
+            </summary>
+            <typeparam name="TException"></typeparam>
+            <param name="assertion"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.InheritsFrom``1(System.Object,System.String)">
+            <summary>
+            Throws a <see cref="T:System.InvalidOperationException"/> when the specified object
+            instance does not inherit from <typeparamref name="TBase"/> type.
+            </summary>
+            <typeparam name="TBase">The base type to check for.</typeparam>
+            <param name="instance">The object to check if it inherits from <typeparamref name="TBase"/> type.</param>
+            <param name="message">string. The exception message to throw.</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.InheritsFrom``1(System.Type,System.String)">
+            <summary>
+            Throws a <see cref="T:System.InvalidOperationException"/> when the specified type does not
+            inherit from the <typeparamref name="TBase"/> type.
+            </summary>
+            <typeparam name="TBase">The base type to check for.</typeparam>
+            <param name="type">The <see cref="T:System.Type"/> to check if it inherits from <typeparamref name="TBase"/> type.</param>
+            <param name="message">string. The exception message to throw.</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.Implements``1(System.Object,System.String)">
+            <summary>
+            Throws a <see cref="T:System.InvalidOperationException"/> when the specified object
+            instance does not implement the <typeparamref name="TInterface"/> interface.
+            </summary>
+            <typeparam name="TInterface">The interface type the object instance should implement.</typeparam>
+            <param name="instance">The object insance to check if it implements the <typeparamref name="TInterface"/> interface</param>
+            <param name="message">string. The exception message to throw.</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.Implements``1(System.Type,System.String)">
+            <summary>
+            Throws an <see cref="T:System.InvalidOperationException"/> when the specified type does not
+            implement the <typeparamref name="TInterface"/> interface.
+            </summary>
+            <typeparam name="TInterface">The interface type that the <paramref name="type"/> should implement.</typeparam>
+            <param name="type">The <see cref="T:System.Type"/> to check if it implements from <typeparamref name="TInterface"/> interface.</param>
+            <param name="message">string. The exception message to throw.</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.TypeOf``1(System.Object,System.String)">
+            <summary>
+            Throws an <see cref="T:System.InvalidOperationException"/> when the specified object instance is
+            not of the specified type.
+            </summary>
+            <typeparam name="TType">The Type that the <paramref name="instance"/> is expected to be.</typeparam>
+            <param name="instance">The object instance whose type is checked.</param>
+            <param name="message">The message of the <see cref="T:System.InvalidOperationException"/> exception.</param>
+        </member>
+        <member name="M:ExampleWebApi.Core.Guard.IsEqual``1(System.Object,System.Object,System.String)">
+            <summary>
+            Throws an exception if an instance of an object is not equal to another object instance.
+            </summary>
+            <typeparam name="TException">The type of exception to throw when the guard check evaluates false.</typeparam>
+            <param name="compare">The comparison object.</param>
+            <param name="instance">The object instance to compare with.</param>
+            <param name="message">string. The message of the exception.</param>
+        </member>
+        <member name="T:ExampleWebApi.Core.Resources.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ExampleWebApi.Core.Resources.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ExampleWebApi.Core.Resources.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

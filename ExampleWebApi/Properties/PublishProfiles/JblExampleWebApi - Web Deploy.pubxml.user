@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOJLZqZjTfEuGsEc9KjzALgAAAAACAAAAAAAQZgAAAAEAACAAAAAulvvLKf8otEcVFcCsnih/AlIEKRt4aMloIuqDe6rTbgAAAAAOgAAAAAIAACAAAADGqpLviERNEEFYYPy6zx+QMsunSiJIYwCb+lsp32d2H4AAAABSoSSFGsPMY+GtpXQ2y4+2iH1upczwFrUS5VZ913P0ZScAX1dvlyKHeNk+Zxtig0/z8JzT7ytavnVj9My1eawv8Uoo5iRJmleDsU5bj4SsYuV3eQ1Jm7NEW//HpI3meqUhSHpASFAGF8toU2dh3tCeukg2EA7OnXUUobJs3/uhOkAAAAARHliqRIU125oHrPV+ynVKmVueenJQoUjwghcVr2kaVgPXzX3VibJLvKl1uTtJ/438j0wg5Hyi2N01ODuFlUTd</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ExampleWebApi">
+      <Value>Filename = .\ExampleWebApi.db</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
